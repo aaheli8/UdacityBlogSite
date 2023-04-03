@@ -1,0 +1,23 @@
+.blogpage-contents{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 32px;
+  
+}
+.author-about{
+    padding-left: 60px;
+}
+.avatar-img{
+    width: 30%;
+    border-radius: 50%;
+}
+
+@media screen and (max-width:600px){
+    .blogpage-contents{
+        display: flex;
+        flex-direction: column;
+        
+}
+}

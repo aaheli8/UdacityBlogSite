@@ -1,0 +1,40 @@
+.footer-style{
+    display: grid;
+    grid-template-columns: repeat(3,6fr);
+    align-items: center;
+    justify-items: center;
+    margin-top: 30px;
+}
+.subscribe a{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.subscribe a:hover{
+    color: #EA5455;
+}
+.author{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 700;
+}
+.contact{
+    padding: 4px;
+    font-weight: 700;
+}
+.social-media a{
+    text-decoration: none;
+    color: #002B5B;
+}
+.social-media a:hover{
+    color: #0081C9;
+}
+
+@media screen and (max-width:600px){
+    .social-media{
+        display: flex;
+        flex-direction: column;
+        
+}
+}

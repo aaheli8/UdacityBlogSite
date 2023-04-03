@@ -1,0 +1,39 @@
+.blogs-card{
+    display: grid;
+    grid-template-columns: repeat(3,6fr);
+    align-items: center;
+    justify-items: center;
+}
+.card{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    margin-bottom: 32px;
+    margin-left: 30px;
+    padding: 8px 8px;
+    box-shadow: 10px 10px #8DCBE6;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.label{
+    padding: 3px;
+    font-family: Sans-serif;
+    font-weight: 600;
+}
+@media screen and (max-width:600px){
+    .blogs-card{
+        display: grid;
+        grid-template-columns: repeat(1,6fr);
+}
+}
+
+@media  screen and (min-width:700px) and (max-width:1000px){
+    .blogs-card{
+        display: grid;
+        grid-template-columns: repeat(2,6fr);
+}
+}

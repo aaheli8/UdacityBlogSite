@@ -1,0 +1,13 @@
+.buttons{
+    background-color: #EA5455;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px;
+    border-radius: 16px;
+
+}
+.buttons a{
+    color: white;
+    text-decoration: none;
+}
